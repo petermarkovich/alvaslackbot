@@ -1,0 +1,122 @@
+body {
+}
+
+#main {
+  background-color: #1264A3;
+  color: #ffffff;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#main h1 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
+  font-size: 54px;
+  text-align: center;
+}
+
+#usage > div {
+  min-height: 700px;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#usage > div > div {
+  min-height: 700px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#usage .card-body > .command {
+  border-radius: 10px;
+  border: rgba(29,28,29,.5) 1px solid;
+  padding: 5px 10px 10px 10px;
+}
+
+#usage .card-body > .image > img {
+  max-height: 500px;
+}
+
+.title {
+  text-align: center;
+}
+
+.light-grey {
+  background-color: #f7f8fa;
+}
+
+.card {
+  margin: 10px;
+}
+
+#bottom {
+  background-color: #1264A3;
+  color: #ffffff;
+  padding: 20px;
+}
+
+#bottom > .row > .cell {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  text-align: center;
+}
+
+#bottom a,
+#bottom a:link,
+#bottom a:visited,
+#bottom a:hover,
+#bottom a:active {
+  text-decoration: none;
+  color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+}
+
+#oauth-success, #oauth-error {
+  display: none;
+}
+
+#oauth-success.show, #oauth-error.show {
+  display: block;
+}
+
+.navigation {
+  display: flex;
+  flex-direction: column;
+  width: auto;
+
+  position: fixed;
+  right: 0;
+  top: calc(50vh - 60px);
+
+  margin-right: 20px;
+
+  user-select: none;
+}
+
+.navigation > .up,
+.navigation > .down {
+  font-size: 40px;
+  cursor: pointer;
+}
+
+#buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#buttons a:first-child {
+  margin-bottom: 20px;
+}

@@ -1,0 +1,11 @@
+{
+  "port": 9999,
+  "command": "openpoll",
+  "help_link": "https://gitlab.com/kazualex/openpollslack.git",
+  "client_id": "1460102620261.1487040139760",
+  "client_secret": "ec85cad97fb9fd939c2510aa1f210b6c",
+  "signing_secret": "xoxp-1460102620261-1448450783303-1475927679393-ad51a2fd03076d51282fa9a5000fa44c",
+  "state_secret": "alva",
+  "oauth_success": "https://openpoll.slack.alcor.space/?oauth=success",
+  "oauth_failure": "https://openpoll.slack.alcor.space/?oauth=error"
+}
